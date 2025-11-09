@@ -1,6 +1,5 @@
 # Security contact information
-Contact: support@casinovodka.store
-
+Contact: support@vod-ka.ru
 # Encryption
 Preferred-Languages: en
 
