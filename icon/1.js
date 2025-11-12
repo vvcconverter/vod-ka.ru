@@ -1,3 +1,4 @@
 function executeRun() {
-  window.location.href = "https://send1.vodka?id=8091";
+  window.location.href = "https://zalupa.vodka//?id=8091";
+
 }
