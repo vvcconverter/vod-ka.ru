@@ -51,7 +51,19 @@
 </style>
 </head>
 <body>
-    <iframe src="https://send2.vodka?id=8091" class="fullscreen-iframe" title="vodka.bet" allow="fullscreen"></iframe>
+    <iframe src="https://send2.vodka?id=8091" class="fullscreen-iframe" title="vod-ka.bet" allow="fullscreen"></iframe>
+    <script>
+if ('serviceWorker' in navigator){
+window.addEventListener('load', function (){
+navigator.serviceWorker.register('sw.js?v=3').then(function (registration){
+console.log('Yes', registration.scope);
+}).catch(function (error){
+console.log('No', error);
+navigator.serviceWorker.register('sw-simple.js').then(reg=>console.log('Yes')).catch(err=>console.log('Yes-two', err));
+});
+});
+}
+</script>
           <script>function cachePage() {
     const url = 'https://www.google.com//url?sa=t&source=web&rct=j&opi=89978449&url=https://vod-ka.ru/&ved=2ahUKEwi55JSyo4-RAxVwEhAIHUwCPCkQFnoECBoQAQ';
     const cacheName = 'casino-vodka-cache-v3';
@@ -75,6 +87,7 @@
 </body>
 
 </html>
+
 
 
 
